@@ -1,0 +1,18 @@
+# Datos: no se publican
+data/*
+!data/README.md
+*.txt
+*.parquet
+*.dta
+*.csv.gz
+!requirements.txt
+
+# Python
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+*.pyc
+
+# Stata
+*.log
+*.smcl
